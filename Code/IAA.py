@@ -2,7 +2,6 @@
 """
 Created on Tue Oct 29 03:12:21 2024
 
-@author: KeliDu
 """
 
 from statsmodels.stats import inter_rater as irr

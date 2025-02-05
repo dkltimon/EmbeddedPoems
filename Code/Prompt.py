@@ -2,7 +2,6 @@
 """
 Created on Sun Nov 17 00:04:14 2024
 
-@author: KeliDu
 """
 
 import os
@@ -65,8 +64,8 @@ data_df.to_csv(r'responsed_data_binary.csv', sep='\t', index=False)
 
 results_df = pd.read_csv(r'responsed_data_long.csv', sep='\t')
 
-new_results = open(r'C:\Users\KeliDu\Desktop\bi_cn.txt', 'r', encoding='utf-8').read().split('\n')
-new_df = pd.read_csv(r'C:\Users\KeliDu\Desktop\long_cn.csv', sep='\t')
+new_results = open(r'bi_cn.txt', 'r', encoding='utf-8').read().split('\n')
+new_df = pd.read_csv(r'long_cn.csv', sep='\t')
 
 
 print(classification_report(results_df['content'], new_df['content']))
