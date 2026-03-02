@@ -1,3 +1,8 @@
+
+
+[![DOI](https://zenodo.org/badge/926483508.svg)](https://doi.org/10.5281/zenodo.18840692)
+
+
 # EmbeddedPoems
 
 Data & Code for analyzing embedded poems in Ming & Qing novels.
