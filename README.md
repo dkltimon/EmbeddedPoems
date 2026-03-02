@@ -18,6 +18,7 @@ The file **second_round_tesing_339_poems_annotations_responses_UsinglongPrompt.c
   * **ChatGPT** (`*_ChatGPT`)
   * **LlamaChinese** (`*_LlamaChinese`)
   * **Llama3** (`*_Llama3`)
+  * **Deepseek** (`*_deepseekR132B*`)
 
 Each model provides its predictions for:
 
